@@ -30,15 +30,6 @@ class Solution:
 
         return int(reversed_number)
 
-# class Solution:
-#     def reverse(self, x: int) -> int:
-#         upper_limit, lower_limit = 2**31 - 1, -2**31
-#         sign = -1 if x < 0 else 1
-        
-#         x = int(str(abs(x))[::-1]) * sign
-        
-#         return 0 if x <= lower_limit or x >= upper_limit else x
-
 def main():
     solution = Solution()
     test_cases = [
